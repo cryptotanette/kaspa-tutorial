@@ -1,0 +1,28 @@
+{
+  "name": "kaspa-wallet",
+  "version": "1.0.0",
+  "description": "Tutorial Kaspa Wallet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com"
+  },
+  "keywords": [
+    "kaspa",
+    "wallet",
+    "javascript"
+  ],
+  "author": "kis$crypto",
+  "license": "ISC",
+  "dependencies": {
+    "@kaspa/grpc-node": "^1.0.8",
+    "@kaspa/wallet": "^1.4.26",
+    "bitcore-mnemonic": "^10.0.36",
+    "kaspa-rpc-client": "^1.1.8",
+    "nodemon": "^3.1.2"
+  }
+}
